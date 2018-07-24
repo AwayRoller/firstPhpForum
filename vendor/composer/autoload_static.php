@@ -7,10 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInit5357dcf6c0021633932605a8fcaa7768
 {
     public static $classMap = array (
+        'App\\Controllers\\CommentsController' => __DIR__ . '/../..' . '/app/controllers/CommentsController.php',
         'App\\Controllers\\PagesController' => __DIR__ . '/../..' . '/app/controllers/PagesController.php',
         'App\\Core\\App' => __DIR__ . '/../..' . '/core/App.php',
         'App\\Core\\Request' => __DIR__ . '/../..' . '/core/Request.php',
         'App\\Core\\Router' => __DIR__ . '/../..' . '/core/Router.php',
+        'ComposerAutoloaderInit5357dcf6c0021633932605a8fcaa7768' => __DIR__ . '/..' . '/composer/autoload_real.php',
+        'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
+        'Composer\\Autoload\\ComposerStaticInit5357dcf6c0021633932605a8fcaa7768' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'Connection' => __DIR__ . '/../..' . '/core/db/Connection.php',
         'QueryBuilder' => __DIR__ . '/../..' . '/core/db/QueryBuilder.php',
     );
