@@ -6,6 +6,5 @@ To Do-s:
 2. Create comment db
 3. Create form to post comment
 4. Save posted comment in db
-
 5. Show posted comments
-6. Add style
+6. Add style (Add bootstrap)

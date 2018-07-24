@@ -18,7 +18,7 @@ class PagesController
     public function forum()
     {
 
-        return view('forum');
+        return view('comments');
 
     }
 

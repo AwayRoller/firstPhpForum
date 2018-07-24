@@ -57,9 +57,6 @@ class QueryBuilder
 
             $statement = $this->pdo->prepare($sql);
 
-            //die(var_dump($statement));
-
-
             $statement->execute($parameters);
 
 
