@@ -60,6 +60,7 @@ class QueryBuilder
             $statement->execute($parameters);
 
 
+
         } catch (Exception $e) {
 
             die('Whoooops! Something went wrong');

@@ -4,26 +4,46 @@ body {
 
 }
 
+.title-container {
 
-.card-container {
+    margin-top: 50px;
 
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-
-    padding: 2px 16px;
-    margin: 10px auto;
-    background: white;
-
-    width: 75%;
 }
 
-.card-details {
-    text-align: right;
-}
-
-
-/* On mouse-over, add a deeper shadow */
-.card-container:hover {
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
+
+
+.comment-section {
+
+    margin: 125px 0px 200px;
+
+}
+
+.commentForm, .userName {
+
+    width: 100%;
+
+}
+
+#comment {
+
+    width: 100%;
+    height: 250px;
+
+}
+
+.card-date {
+
+    text-align: right;
+
+}
+
+.comment-btn {
+
+    margin-top: 15px;
+
+}
+

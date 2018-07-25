@@ -36,10 +36,14 @@ class CommentsController
 
 
                 'user' => $_POST['user'],
-                'comment' => $_POST['comment']
+                'comment' => $_POST['comment'],
+
+                'cr_date' => date("Y/m/d H:i:s")
 
 
             ]);
+
+
 
         return redirect('comments');
 
