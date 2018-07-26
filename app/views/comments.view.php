@@ -2,11 +2,11 @@
 
 
 <div class="title-container">
-    <div class="container" style="margin: auto">
+    <div class="container" >
 
         <div class="row">
 
-            <div class="col-lg-12" style="text-align: center">
+            <div class="col-lg-12 title-col">
 
                 <h2>Recent comments:</h2>
 
@@ -47,25 +47,26 @@
 
 
 <div class="comment-container">
+
     <div class="container">
         <div class="row">
 
 
-            <div class="col-lg-12 comment-section" style="text-align: center">
+            <div class="col-lg-12">
 
                 <h2>Comment:</h2>
 
                 <!--Comment section form-->
-                <form class="commentForm" method="POST" action="/comments">
+                <form class="comment-form" method="POST" action="/comments">
 
-                    <input class="userName" name="user" placeholder="User Name">
+                    <input class="user-name" name="user" placeholder="User Name">
                     <br>
 
 
-                    <textarea id="comment" name="comment" placeholder="Write something.." ></textarea>
+                    <textarea class="comment" name="comment" placeholder="Write something.." ></textarea>
                     <br>
 
-                    <div class="comment-btn">
+                    <div>
                         <button class="btn btn-primary buy-btn-lg" type="submit">Submit</button>
                     </div>
 
@@ -78,6 +79,7 @@
 
         </div>
     </div>
+
 </div>
 
 

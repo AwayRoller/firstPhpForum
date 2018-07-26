@@ -1,5 +1,84 @@
+body {
+  font-family: "Roboto Slab", serif;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+body {
+  background: powderblue;
+}
+
 .title-container {
-  margin-top: 50px;
+  margin: 50px auto;
+}
+
+.main-container {
+  height: 500px;
+}
+
+.comment-container {
+  width: 100%;
+  margin: 125px 0px 200px;
+  text-align: center;
+}
+
+.light-container {
+  background-color: #d7eff2;
+  height: 300px;
+}
+
+.about-container {
+  margin-top: 20px;
+  background-color: powderblue;
+}
+
+.title-col {
+  text-align: center;
+}
+
+.about-content {
+  font-size: 2rem;
+  margin: 10px 15px 50px;
+  color: powderblue;
+  letter-spacing: -.025em;
+}
+
+#page-footer {
+  clear: both;
+  background-color: #212630;
+  padding: 25px 0 40px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer-container {
+  padding: 0 10%;
+}
+
+.footer-container .lego-footer {
+  font-size: 1rem;
+  font-weight: 200;
+  color: #c3e8ec;
+}
+
+.footer-container .lego-footer .footer-wrapper {
+  display: inline-block;
+  padding-bottom: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.footer-link {
+  margin-right: 36px;
+  color: #c3e8ec;
+  text-decoration: none;
+  color: powderblue;
+}
+
+.comment {
+  height: 250px;
 }
 
 .card:hover {
@@ -7,25 +86,36 @@
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.comment-section {
-  margin: 125px 0px 200px;
-}
-
-.commentForm,
-.userName {
-  width: 100%;
-}
-
-#comment {
-  width: 100%;
-  height: 250px;
-}
-
 .card-date {
   text-align: right;
 }
 
-.comment-btn {
+.buy-btn-lg {
   margin-top: 15px;
+}
+
+.buy-btn-lg {
+  padding: 12px 35px;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  width: 20%;
+}
+
+.navbar {
+  background-color: #20B2AA;
+  padding: 20px;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar .navbar-collapse {
+  padding-left: 50px;
+}
+
+.comment-form .user-name,
+.comment-form .comment {
+  width: 100%;
 }
 

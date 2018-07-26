@@ -17,11 +17,12 @@
 
 
 
-    <link rel="stylesheet" type="text/css" href="/public/css/style.css">
+    <!--<link rel="stylesheet" type="text/css" href="/public/css/style.css">-->
+    <link href="/public/css/main.css" rel="stylesheet"/>
 
 </head>
 
-<body style="background-color: powderblue">
+<body>
 
 <?php require('nav.php'); ?>
 
